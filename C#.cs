@@ -5,11 +5,11 @@ class Program
 {
     static void Main()
     {
-        int totalRows = 6;  // Defining the number of rows, let's keep it flexible.
+        int totalRows = 6;  // Initializing number of rows, which is 6
 
         for (int currentRow = 0; currentRow < totalRows; currentRow++)
         {
-            string lineOutput = "";  // We'll store the row string here instead of directly printing.
+            string lineOutput = "";  //StoreS the row string instead of directly printing.
 
             if (currentRow == 0 || currentRow == totalRows - 1)
             {
