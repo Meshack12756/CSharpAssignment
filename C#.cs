@@ -38,7 +38,7 @@ class Program
                 }
             }
 
-            Console.WriteLine(lineOutput);  // Output the row after it's fully built
+            Console.WriteLine(lineOutput);  // Output the row after it's fully built.
         }
     }
 }
